@@ -1,0 +1,3 @@
+C:\Users\LENOVO\source\repos\Amanpreet_Portfolio\Amanpreet_Portfolio\obj\Debug\Amanpreet_Portfolio.njsproj.CoreCompileInputs.cache
+C:\Users\LENOVO\source\repos\Amanpreet_Portfolio\Amanpreet_Portfolio\bin\Microsoft.NodejsTools.WebRole.dll
+C:\Users\LENOVO\source\repos\Amanpreet_Portfolio\Amanpreet_Portfolio\obj\Debug\Amanpreet_Portfolio.njsprojAssemblyReference.cache

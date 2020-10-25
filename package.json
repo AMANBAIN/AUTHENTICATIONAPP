@@ -1,0 +1,13 @@
+{
+  "name": "amanpreet_portfolio",
+  "version": "0.0.0",
+  "description": "Amanpreet_Portfolio",
+  "main": "server.js",
+  "author": {
+    "name": ""
+  },
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1"
+  }
+}

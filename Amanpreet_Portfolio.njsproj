@@ -1,0 +1,185 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">14.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <Name>Amanpreet_Portfolio</Name>
+    <RootNamespace>Amanpreet_Portfolio</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>4a45ae0e-f3df-4b96-8b9e-666e8aa4814e</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>app.js</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{349c5851-65df-11da-9384-00065b846f21};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
+    <NodejsPort>1337</NodejsPort>
+    <StartWebBrowser>true</StartWebBrowser>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="app.js" />
+    <Content Include="package.json" />
+    <Content Include="public\assets\css\style.css" />
+    <Content Include="public\assets\img\about.jpg" />
+    <Content Include="public\assets\img\apple-touch-icon.png" />
+    <Content Include="public\assets\img\favicon.png" />
+    <Content Include="public\assets\img\hero-bg.jpg" />
+    <Content Include="public\assets\img\portfolio\portfolio-1.jpg" />
+    <Content Include="public\assets\img\portfolio\portfolio-2.jpg" />
+    <Content Include="public\assets\img\portfolio\portfolio-3.jpg" />
+    <Content Include="public\assets\js\main.js" />
+    <Content Include="public\assets\vendor\aos\aos.css" />
+    <Content Include="public\assets\vendor\aos\aos.js" />
+    <Content Include="public\assets\vendor\bootstrap\css\bootstrap-grid.css" />
+    <Content Include="public\assets\vendor\bootstrap\css\bootstrap-grid.css.map" />
+    <Content Include="public\assets\vendor\bootstrap\css\bootstrap-grid.min.css" />
+    <Content Include="public\assets\vendor\bootstrap\css\bootstrap-grid.min.css.map" />
+    <Content Include="public\assets\vendor\bootstrap\css\bootstrap-reboot.css" />
+    <Content Include="public\assets\vendor\bootstrap\css\bootstrap-reboot.css.map" />
+    <Content Include="public\assets\vendor\bootstrap\css\bootstrap-reboot.min.css" />
+    <Content Include="public\assets\vendor\bootstrap\css\bootstrap-reboot.min.css.map" />
+    <Content Include="public\assets\vendor\bootstrap\css\bootstrap.css" />
+    <Content Include="public\assets\vendor\bootstrap\css\bootstrap.css.map" />
+    <Content Include="public\assets\vendor\bootstrap\css\bootstrap.min.css" />
+    <Content Include="public\assets\vendor\bootstrap\css\bootstrap.min.css.map" />
+    <Content Include="public\assets\vendor\bootstrap\js\bootstrap.bundle.js" />
+    <Content Include="public\assets\vendor\bootstrap\js\bootstrap.bundle.js.map" />
+    <Content Include="public\assets\vendor\bootstrap\js\bootstrap.bundle.min.js" />
+    <Content Include="public\assets\vendor\bootstrap\js\bootstrap.bundle.min.js.map" />
+    <Content Include="public\assets\vendor\bootstrap\js\bootstrap.js" />
+    <Content Include="public\assets\vendor\bootstrap\js\bootstrap.js.map" />
+    <Content Include="public\assets\vendor\bootstrap\js\bootstrap.min.js" />
+    <Content Include="public\assets\vendor\bootstrap\js\bootstrap.min.js.map" />
+    <Content Include="public\assets\vendor\boxicons\css\animations.css" />
+    <Content Include="public\assets\vendor\boxicons\css\boxicons.css" />
+    <Content Include="public\assets\vendor\boxicons\css\boxicons.min.css" />
+    <Content Include="public\assets\vendor\boxicons\css\transformations.css" />
+    <Content Include="public\assets\vendor\boxicons\fonts\boxicons.eot" />
+    <Content Include="public\assets\vendor\boxicons\fonts\boxicons.svg" />
+    <Content Include="public\assets\vendor\boxicons\fonts\boxicons.ttf" />
+    <Content Include="public\assets\vendor\boxicons\fonts\boxicons.woff" />
+    <Content Include="public\assets\vendor\boxicons\fonts\boxicons.woff2" />
+    <Content Include="public\assets\vendor\counterup\counterup.min.js" />
+    <Content Include="public\assets\vendor\icofont\fonts\icofont.woff" />
+    <Content Include="public\assets\vendor\icofont\fonts\icofont.woff2" />
+    <Content Include="public\assets\vendor\icofont\icofont.min.css" />
+    <Content Include="public\assets\vendor\isotope-layout\isotope.pkgd.js" />
+    <Content Include="public\assets\vendor\isotope-layout\isotope.pkgd.min.js" />
+    <Content Include="public\assets\vendor\jquery.easing\jquery.easing.min.js" />
+    <Content Include="public\assets\vendor\jquery\jquery.min.js" />
+    <Content Include="public\assets\vendor\jquery\jquery.min.map" />
+    <Content Include="public\assets\vendor\owl.carousel\assets\ajax-loader.gif" />
+    <Content Include="public\assets\vendor\owl.carousel\assets\owl.carousel.css" />
+    <Content Include="public\assets\vendor\owl.carousel\assets\owl.carousel.min.css" />
+    <Content Include="public\assets\vendor\owl.carousel\assets\owl.theme.default.css" />
+    <Content Include="public\assets\vendor\owl.carousel\assets\owl.theme.default.min.css" />
+    <Content Include="public\assets\vendor\owl.carousel\assets\owl.theme.green.css" />
+    <Content Include="public\assets\vendor\owl.carousel\assets\owl.theme.green.min.css" />
+    <Content Include="public\assets\vendor\owl.carousel\assets\owl.video.play.png" />
+    <Content Include="public\assets\vendor\owl.carousel\LICENSE" />
+    <Content Include="public\assets\vendor\owl.carousel\owl.carousel.js" />
+    <Content Include="public\assets\vendor\owl.carousel\owl.carousel.min.js" />
+    <Content Include="public\assets\vendor\owl.carousel\README.md" />
+    <Content Include="public\assets\vendor\php-email-form\changelog.txt" />
+    <Content Include="public\assets\vendor\php-email-form\validate.js" />
+    <Content Include="public\assets\vendor\venobox\venobox.css" />
+    <Content Include="public\assets\vendor\venobox\venobox.js" />
+    <Content Include="public\assets\vendor\venobox\venobox.min.css" />
+    <Content Include="public\assets\vendor\venobox\venobox.min.js" />
+    <Content Include="public\assets\vendor\waypoints\jquery.waypoints.min.js" />
+    <Content Include="README.md" />
+    <Content Include="views\about.ejs">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="views\contact.ejs">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="views\home.ejs">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="views\projects.ejs">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="views\services.ejs">
+      <SubType>Code</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="public\assets\" />
+    <Folder Include="public\assets\css\" />
+    <Folder Include="public\assets\img\" />
+    <Folder Include="public\assets\img\portfolio\" />
+    <Folder Include="public\assets\js\" />
+    <Folder Include="public\assets\vendor\" />
+    <Folder Include="public\assets\vendor\aos\" />
+    <Folder Include="public\assets\vendor\bootstrap\" />
+    <Folder Include="public\assets\vendor\bootstrap\css\" />
+    <Folder Include="public\assets\vendor\bootstrap\js\" />
+    <Folder Include="public\assets\vendor\boxicons\" />
+    <Folder Include="public\assets\vendor\boxicons\css\" />
+    <Folder Include="public\assets\vendor\boxicons\fonts\" />
+    <Folder Include="public\assets\vendor\counterup\" />
+    <Folder Include="public\assets\vendor\icofont\" />
+    <Folder Include="public\assets\vendor\icofont\fonts\" />
+    <Folder Include="public\assets\vendor\isotope-layout\" />
+    <Folder Include="public\assets\vendor\jquery.easing\" />
+    <Folder Include="public\assets\vendor\jquery\" />
+    <Folder Include="public\assets\vendor\owl.carousel\" />
+    <Folder Include="public\assets\vendor\owl.carousel\assets\" />
+    <Folder Include="public\assets\vendor\php-email-form\" />
+    <Folder Include="public\assets\vendor\venobox\" />
+    <Folder Include="public\assets\vendor\waypoints\" />
+    <Folder Include="views\" />
+    <Folder Include="public\" />
+  </ItemGroup>
+  <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:48022/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://localhost:1337</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
